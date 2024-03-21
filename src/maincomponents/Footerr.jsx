@@ -60,7 +60,7 @@ function Footerr() {
           <p className="font-bold text-white font-mono">
             Company
           </p>
-          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-400">
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-200">
           {company.map((items,index) =>(  <a  key={index} href={items?.url} className='hover:opacity-75'>{items.name} </a>          ))}
           </nav>
         </div>
@@ -68,7 +68,7 @@ function Footerr() {
           <p className="font-bold text-white font-mono">
             Services
           </p>
-          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-400">
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-200">
           {servises.map((items,index) =>( <a key={index} href={items?.url} className='hover:opacity-75'>{items.name} </a>          ))}
           </nav>
         </div>
@@ -76,7 +76,7 @@ function Footerr() {
           <p className="font-bold text-white font-mono">
             Helpful Links
           </p>
-          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-400">
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-200">
           {link.map((items,index) =>(   <a key={index} href={items?.url} className='hover:opacity-75'>{items.name} </a>          ))}
           </nav>
         </div>
@@ -84,7 +84,7 @@ function Footerr() {
           <p className="font-bold text-white font-mono">
             Legal
           </p>
-          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-400">
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-200">
           {lrgal.map((items,index) =>(  <a key={index} href={items?.url} className='hover:opacity-75'>{items.name} </a>          ))}
           </nav>
         </div>

@@ -23,9 +23,8 @@ function About() {
 
                     <h2 className="text-4xl font-bold text-center text-emerald-50 mb-8 py-10 font-serif border-b-4">ABOUT ...</h2>
 
-
-					<div className=" max=  mt-20 ">
-                    <h1 className="py-2 font-bold text-2xl  text-yellow-100"> about : </h1>
+					<div className=" max=  mt-28  rounded-3xl border-gray-400 border-double border-4 bg-gradient-to-r from-gray-800 via-[#032212] to-sky-950  p-8  shadow-2xl shadow-black italic  text-lg ">
+                    <h1 className="py-2 font-bold text-2xl  text-yellow-100 "> about : </h1>
                     <p className="leading-relaxed text-white">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ipsum vel nunc commodo hendrerit sit amet vel
                         nisi. Donec sodales maximus justCulpa aliqua velit veniam officia. Officia culpa magna aliqua eu est mollit veniam quis in. Aute officia aliquip commodo excepteur Lorem esse reprehenderit. In ea ipsum dolore do mollit et quis in officia enim. Dolore ut sint aliqua dolor nulla dolor mollit voluptate qui duis amet non. Ipsum in nostrud ad consequat do.Cillum fugiat consectetur minim exercitation est ullamco. Nostrud elit in amet do ullamco dolore anim laborum nisi elit laborum ad in officia. Velit amet officia nostrud mollit dolor exercitation Lorem ea aute aliquip excepteur esse ullamco veniam. Fugiat dolore qui eu Lorem consequat qui enim pariatur.o, nec Deserunt ea est nisi qui ullamco enim id amet sunt consectetur do quis. Occaecat nostrud reprehenderit aute ex velit commodo magna dolore proident est consectetur. Id sunt excepteur quis id dolore ut ullamco consectetur consequat incididunt qui non. dictum lectus malesuada non. Sed auctor ultrices tellus non varius.
@@ -35,11 +34,12 @@ function About() {
                             </span>
                         )}
                     </p>
-                    <button onClick={toggleShowMore} className="mt-4 text-pink-400 focus:outline-none">
+                    <button onClick={toggleShowMore} className="mt-8 text-pink-400 focus:outline-none">
                         {showMore ? "Hide" : "Read More"}
                     </button>
                     </div>
 
+    {/* // ------------------------------------------------------------------------------------------------------------- */}
 
                     {about.map((item, index) => (
 
