@@ -19,13 +19,13 @@ function About() {
             <div>
 
 
-                <section className="container mx-auto px-6 p-10">
+                <div className="container mx-auto px-6 p-10">
 
-                    <h2 className="text-4xl font-bold text-center text-emerald-50 mb-8 py-10 font-serif border-b-4">ABOUT ...</h2>
+                    <h2 className="text-4xl font-bold text-center text-emerald-50 mb-8 py-10 font-serif border-b-4 border-[#8cb1b4]">ABOUT ...</h2>
 
-					<div className=" max=  mt-28  rounded-3xl border-gray-400 border-double border-4 bg-gradient-to-r from-gray-800 via-[#032212] to-sky-950  p-8  shadow-2xl shadow-black italic  text-lg ">
-                    <h1 className="py-2 font-bold text-2xl  text-yellow-100 "> about : </h1>
-                    <p className="leading-relaxed text-white">
+					<div className=" max=  mt-28  rounded-3xl border-gray-400 border-double border-4 bg-gradient-to-r from-[#618b92] to-[#776080]  p-8  shadow-2xl shadow-black italic   text-lg ">
+                    <h1 className="py-2 font-bold text-2xl  text-black "> about : </h1>
+                    <p className="leading-relaxed text-black">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi non ipsum vel nunc commodo hendrerit sit amet vel
                         nisi. Donec sodales maximus justCulpa aliqua velit veniam officia. Officia culpa magna aliqua eu est mollit veniam quis in. Aute officia aliquip commodo excepteur Lorem esse reprehenderit. In ea ipsum dolore do mollit et quis in officia enim. Dolore ut sint aliqua dolor nulla dolor mollit voluptate qui duis amet non. Ipsum in nostrud ad consequat do.Cillum fugiat consectetur minim exercitation est ullamco. Nostrud elit in amet do ullamco dolore anim laborum nisi elit laborum ad in officia. Velit amet officia nostrud mollit dolor exercitation Lorem ea aute aliquip excepteur esse ullamco veniam. Fugiat dolore qui eu Lorem consequat qui enim pariatur.o, nec Deserunt ea est nisi qui ullamco enim id amet sunt consectetur do quis. Occaecat nostrud reprehenderit aute ex velit commodo magna dolore proident est consectetur. Id sunt excepteur quis id dolore ut ullamco consectetur consequat incididunt qui non. dictum lectus malesuada non. Sed auctor ultrices tellus non varius.
                         {showMore && (
@@ -34,7 +34,7 @@ function About() {
                             </span>
                         )}
                     </p>
-                    <button onClick={toggleShowMore} className="mt-8 text-pink-400 focus:outline-none">
+                    <button onClick={toggleShowMore} className="mt-8 font-bold border p-1 px-3 shadow-inner shadow-black  border-double rounded-3xl  text-[#7a3250] focus:outline-none">
                         {showMore ? "Hide" : "Read More"}
                     </button>
                     </div>
@@ -43,10 +43,10 @@ function About() {
 
                     {about.map((item, index) => (
 
-                        <div key={index} className="flex items-center flex-wrap mb-20 mt-40">
+                        <div key={index} className="flex items-center flex-wrap mb-20 mt-40 ml-20 ">
                             <div className="w-full md:w-1/2">
-                                <h4 className="text-3xl text-emerald-50 font-bold mb-3">{item.title}</h4>
-                                <p className="text-emerald-300 mb-8">{item.description}</p>
+                                <h4 className="text-3xl text-emerald-50 font-bold mb-3 border-b-2 pb-2 border-[#03312d62]">{item.title}</h4>
+                                <p className="text-emerald-200 mb-8">{item.description}</p>
                             </div>
                             <div className="w-full md:w-1/2 ">
                                 <img src={item.image} alt="Monitoring" className=' h-60 lg:ml-60 ml-10' />
@@ -55,7 +55,7 @@ function About() {
 
                     ))}
 
-                </section>
+                </div>
             </div>
         </>
     );

@@ -1,12 +1,18 @@
 import Footerr from './maincomponents/Footerr'
 import Pitems from './subcomponent/Pitems'
 
+import Particle from "./config/Particle"
+
 function App() {
+
+
+  
   return (
     <>
-      <div className=" bg-gradient-to-r from-sky-950 via-[#02180d] to-gray-800  ">
-      <Pitems />
-      <Footerr />
+    <div>
+      <Particle  />
+      <Pitems /> 
+      <Footerr /> 
       </div>
     </>
   )

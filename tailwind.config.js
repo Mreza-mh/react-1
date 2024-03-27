@@ -36,6 +36,20 @@ export default {
         50 : "#b91c1c",
       },
 
+      custombrown : {
+        100 : "#5B3D45",
+      },
+      customblue : {
+        100 : "#5B868D",
+      },
+      customgreen : {
+        100 : "#2e4147",
+      },
+      customwithe : {
+        100 : "#C8D5CB",
+      },
+
+
 
     },
   },
