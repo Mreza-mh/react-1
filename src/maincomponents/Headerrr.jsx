@@ -110,7 +110,7 @@ function Headerrr() {
                   aria-label="Open mobile menu" >
                   <div className='flex mt-10 justify-around  ml-96 md:space-x-80 md:ml-80 sm:ml-96 sm:space-x-36'>
                     <p className='flex sm:hidden'> </p>
-                  <svg className=" h-6 w-6 sm:hidden  " stroke="black" fill="" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
+                  <svg className=" h-6 w-6 mr-12 mt-1 sm:hidden  " stroke="black" fill="" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
                   </div>
                 </button>
               </div>
