@@ -24,7 +24,6 @@ function About() {
         <>
             <div>
 
-
                 <div className="container mx-auto px-6 p-10">
 
                     <h2 className="text-4xl font-bold text-center text-emerald-50 mb-8 py-10 font-serif border-b-4 border-[#8cb1b4]">ABOUT ...</h2>
