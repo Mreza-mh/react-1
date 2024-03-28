@@ -28,6 +28,7 @@ export default function Pitems() {
 
     return (
         <div >
+            {/* <h2>dsd</h2> */}
             <Handler pitems={pitems}  />
         </div>
     )
