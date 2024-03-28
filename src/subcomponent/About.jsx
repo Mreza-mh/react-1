@@ -4,13 +4,10 @@ function About() {
 
     const about = [
         { title: "About 1", description: "Duis nostrud mollit commodo veniam veniam consequat cillum tempor consectetur fugiat et. Exercitation aute dolor voluptate fugiat proident consectetur ea. Proident eiusmod cillum sunt laborum minim esse. Consequat proident anim voluptate dolore.", 
-        // image: "src/image/camrea.webp"
         image : "https://s.cafebazaar.ir/images/icons/com.instbox.music.mp3.vid-9ef6618a-717d-45ec-be34-9d92b5ecc490_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_256,w_256,lossless_false/optimize"       },
         { title: "About 2", description: "Aliquip laborum dolor commodo amet laboris. Ipsum consectetur duis nostrud est. Aliquip sint voluptate dolor aliqua deserunt duis et cillum cupidatat sunt anim. Velit aliqua veniam cupidatat proident sint culpa elit do aliquip aute voluptate laborum Lorem. Adipisicing deserunt nisi Lorem sunt exercitation deserunt consectetur et. Sint id magna aute non reprehenderit.",
-        // image: "src/image/galam.webp" 
         image :"https://s.cafebazaar.ir/images/icons/com.aparat.filimo-45c1fe1f-5821-403f-9422-86651de3885e_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_256,w_256,lossless_false/optimize"},
         { title: "About 3", description: "Eiusmod dolore nostrud elit in aliquip id magna labore aliqua incididunt. Ut dolor ut ad sunt deserunt amet. Ullamco tempor non laboris tempor nisi. Eu veniam quis enim magna excepteur enim nostrud ipsum. Lorem consequat proident minim ea. Laboris nulla laboris irure aliquip dolor do et irure amet consequat elit.",
-        // image: "src/image/roter.webp" 
         image :"https://s.cafebazaar.ir/images/icons/com.bubblesoft.android.bubbleupnp-a35753c3-0ccf-47c3-9d37-7677c78be1ad_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_256,w_256,lossless_false/optimize"    },
     ];
 
@@ -54,7 +51,7 @@ function About() {
                                 <p className="text-emerald-200 mb-8">{item.description}</p>
                             </div>
                             <div className="w-full md:w-1/2 ">
-                                <img src={item.image} alt="Monitoring" className=' h-60 lg:ml-60 ml-10' />
+                                <img src={item.image} alt="image" className=' h-60 lg:ml-60 ml-10' />
                             </div>
                         </div>
 
