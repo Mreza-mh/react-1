@@ -9,7 +9,7 @@ function Handler({ pitems }) {
 
       return (
           <div>
-          <BrowserRouter>
+          <BrowserRouter basename='/react-1/'>
               <Routes>
                   <Route path="/" element={<Layout />}>
                     <Route index element={<Mainbody pitems={pitems}  />} /> 
